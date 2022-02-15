@@ -1,0 +1,127 @@
+body {
+    background:linear-gradient(0deg, cyan, #89CFF0, #191970, black);
+    margin: 0;
+    font-family: georgia, sans-serif;
+  }
+  
+  @media (max-width: 600px;) {
+    nav ul {
+      flex-direction: column;  
+    }
+    nav li {
+      margin: 0;
+    }
+    nav a {
+      display: block;
+    }
+    .project-grid {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+    .contact-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+  }
+  
+  #navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #D6EFFF;
+  }
+  
+  #welcome-section {
+    height: 100vh;
+    color: silver;
+  }
+  
+  #welcome-section div {
+    padding-top: 10vh;
+  }
+  
+  #welcome-section h1 {
+    font-size: 2em;
+  }
+  
+  #welcome-section p {
+    margin: 0vw 10vw;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0 2vw;
+    padding: 1vw;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  a {
+    text-decoration: none;
+    padding: 1vw;
+    color: black;
+  }
+  
+  nav a:hover {
+    background-color: #C6D9FF;
+  }
+  
+  #projects {
+    height: 100vh;
+    padding-top: 10vh;
+    color: silver;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: 35vw 35vw;
+    grid-gap: 10vw;
+    padding: 5vw 10vw;
+  }
+  
+  .project-tile {
+    background-color: #D6EFFF;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+  }
+  
+  .project-tile:hover {
+    background-color: #C6D9FF;
+    transform: scale(1.1);
+  }
+  
+  #contact {
+    height: 80vh;
+    padding-top: 10vh;
+    color: #404040;
+  }
+  
+  .contact-box {
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw;
+    grid-gap: 10vw;
+    padding: 5vw 10vw;
+  }
+  
+  .contact-tile {
+    background-color: aquamarine;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+  }
+  
+  .contact-tile:hover {
+    background-color: #33FFCC;
+    transform: scale(1.1);
+  }
+  
+  footer {
+    height: 10vh;
+    border-top: solid 4px white;
+    
+  }

@@ -1,1 +1,1 @@
-# portfolio
+A collection of projects I have built to showcase what I have learnt so far. In the future I will be adding more projects or switching out older ones for new and improved versions.
